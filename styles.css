@@ -16,7 +16,8 @@ Common styles or utilities
   color: #727272;
 }
 
-header, main {
+header,
+main {
   width: 80%;
   margin: 0 auto;
 }
@@ -88,7 +89,6 @@ button {
   height: 700px;
 }
 
-
 /*----------------------------------
         Quick list section
 -----------------------------------*/
@@ -105,4 +105,117 @@ button {
   max-width: 708px;
   row-gap: 24px;
   column-gap: 24px;
+}
+
+.quick {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+}
+
+#title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+#features {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ff900e;
+}
+
+.info .description {
+  margin: 24px 0 32px;
+}
+
+.info button {
+  margin: 0;
+}
+
+/*----------------------------------
+         Features section
+-----------------------------------*/
+.features {
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text {
+  margin-top: 40px;
+}
+
+.text .title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  border-left: 5px solid #ff900e;
+  padding-left: 21px;
+}
+
+#title-description {
+  margin: 30px 0 30px;
+  max-width: 586px;
+}
+
+.sub-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+
+.items {
+  padding: 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  max-width: 586px;
+}
+
+#architect {
+  width: 708px;
+  height: 982px;
+}
+
+.image {
+  width: 800px;
+  height: 1059px;
+}
+
+.image .img {
+  position: absolute;
+  width: 708px;
+  height: 982px;
+  left: 972px;
+  top: 2245px;
+}
+
+.image .title {
+  color: #ffffff;
+  background-color: #ff900e;
+  position: absolute;
+  width: 258px;
+  height: 109px;
+  left: 870px;
+  top: 3150px;
+  border: 45px #ff900e solid;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image .title #ten-year {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.image .title #Experience {
+  font-weight: 500;
+  font-size: 25px;
 }
