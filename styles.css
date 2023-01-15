@@ -1,0 +1,108 @@
+/*------------------------
+           Fonts
+---------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+/*-----------------------------
+Common styles or utilities
+------------------------------*/
+.title {
+  font-family: "Work Sans", sans-serif;
+}
+
+.description {
+  font-family: "Work Sans", sans-serif;
+  color: #727272;
+}
+
+header, main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 85px;
+}
+
+/*----------------------------------
+            Header Styles
+-----------------------------------*/
+.container-1 {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding-bottom: 45px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .title {
+  font-size: 35px;
+}
+
+.buttons a {
+  text-decoration: none;
+  margin: 25px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 550;
+  color: #424242;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline .title h1 {
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.headline .description {
+  width: 862px;
+  text-align: center;
+  font-size: 16px;
+}
+
+button {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  width: 180px;
+  height: 64px;
+  background-color: #ff900e;
+  border: 0;
+  border-radius: 8px;
+  margin: 32px 0px 50px;
+  cursor: pointer;
+}
+
+.headline .image > img {
+  border-radius: 15px;
+  width: 1440px;
+  height: 700px;
+}
+
+
+/*----------------------------------
+        Quick list section
+-----------------------------------*/
+.quick-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 75px;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 708px;
+  row-gap: 24px;
+  column-gap: 24px;
+}
